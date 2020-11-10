@@ -11,7 +11,7 @@ let dog_name = ["Max", "HAS", "PuRple", "dog"]
 
 console.log(dog_strings.length)
 function findword(){
-    if((dog_string.indexOf('Max')) >= 0){
+    if((dog_strings.indexOf('Max')) >= 0){
         return "Matched dog_name"
     }else{
         return "No matches"
